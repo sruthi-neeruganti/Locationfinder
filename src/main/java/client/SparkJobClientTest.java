@@ -1,4 +1,4 @@
-package com.spark.test.client;
+package client;
 
 import java.util.List;
 import java.io.File;
