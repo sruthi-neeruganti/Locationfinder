@@ -11,7 +11,7 @@ public class SparkRestServiceTest {
 
 	public static void main(String[] args) {
 		IPGeolocationAPI api = new IPGeolocationAPI("fca667c3cab84187b60b5b71d6e0bef0");
-
+		//Rest end point for hello function
 		get("/hello", (req, res) -> "Hello World");
 		//Rest api to get location data based on ip address
 		get("/geolocate/:ipaddress", (req, res) -> {
