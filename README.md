@@ -1,4 +1,6 @@
 # Locationfinder
+#All the Source code is available in the master branch
+
 Created simple webapp to return location data using Java and Spark
 
 Maven dependencies
@@ -15,13 +17,13 @@ It's a good choice if you want to have a Node.js like experience when developing
 		</dependency>
     
 Gson Library:
-At various places in the example, we will be using Gson library for JSON operations. To include Gson in your project, include this dependency in your pom.xml:
+At various places in the example, we will be using Gson library for JSON operations. To include Gson in the project, include this dependency in your pom.xml:
     
          <dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.0</version>
-		</dependency>
+	</dependency>
 Spark-Job-Server-Client:
 
 Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apache License v2. It aims to make the java applications use the spark more easily.This is taken as reference from https://github.com/bluebreezecf/SparkJobServerClient
