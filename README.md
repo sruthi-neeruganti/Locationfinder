@@ -34,7 +34,7 @@ Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apach
              <version>1.0.0</version>
         </dependency>
 	
-Swagger Dependencies:	
+Swagger Dependencies: In order to display Swagger/OpenApI specification to the end points created in the backend Swagger dependencies are added to the project referred from https://github.com/manusant/spark-swagger and https://swagger.io/tools/swagger-codegen/ to generate javascript SDK for frontend application to access API	
 		<dependency>
 			<groupId>com.beerboy.ss</groupId>
 			<artifactId>spark-swagger</artifactId>
