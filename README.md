@@ -1,5 +1,5 @@
 # Locationfinder
-#All the Source code is available in the master branch
+#All the Source code is available in the spring-boot-spark branch
 
 Created simple webapp to return location data using Java and Spark
 
@@ -74,14 +74,10 @@ Java Classes
 
 GeoLocationData: Contains all the location data fields such as CountryName,Currency,StatusCode,Message.
 
-SparkRestserviceTest:Contains all the route information and req param feilds to access the services through API key Provided by https://app.ipgeolocation.io/.This class return Json response in the browser.(localhost:4567:geolocate/<ipaddress>)
+GeoLocationController:Contains all the route information and req param feilds to access the services through API key Provided by https://app.ipgeolocation.io/.This class return Json response in the browser.(localhost:4567:geolocate/<ipaddress>)
 
 SparkJobClientTest: Contains the client code .
 
-Routes:
-get("/your-route-path/", (request, response) -> {
-    // your callback code
-});
 
 
 The JSON Response Structure:
