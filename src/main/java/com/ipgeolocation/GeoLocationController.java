@@ -27,7 +27,7 @@ public class GeoLocationController {
 	//Rest api to get location data based on ip address
 	public GeoLocationData read(@PathVariable String ipaddress) {
 		IPGeolocationAPI api = new IPGeolocationAPI("fca667c3cab84187b60b5b71d6e0bef0");
-
+		//Adding params 
 		GeolocationParams geoParams = new GeolocationParams();
 		geoParams.setIPAddress(ipaddress);
 		geoParams.setFields("geo,time_zone,currency");
