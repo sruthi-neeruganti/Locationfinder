@@ -1,4 +1,5 @@
 package com.ipgeolocation;
+//pojo
 
 public class GeoLocationData {
 
