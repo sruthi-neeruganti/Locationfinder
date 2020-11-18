@@ -78,7 +78,11 @@ GeoLocationController:Contains all the route information and req param feilds to
 
 SparkJobClientTest: Contains the client code .
 
+To get location data: url:https://localhost:8085/geolocate/<ip-address>
 
+To get Swagger/OpenApi :https://localhost:8085/swagger-ui.html
+
+	
 
 The JSON Response Structure:
 {
