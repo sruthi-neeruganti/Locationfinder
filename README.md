@@ -33,6 +33,28 @@ Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apach
              <artifactId>spark-job-server-client</artifactId>
              <version>1.0.0</version>
         </dependency>
+	
+Swagger Dependencies:	
+		<dependency>
+			<groupId>com.beerboy.ss</groupId>
+			<artifactId>spark-swagger</artifactId>
+			<version>1.0.0.48</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.swagger.codegen.v3</groupId>
+			<artifactId>swagger-codegen-maven-plugin</artifactId>
+			<version>3.0.23</version>
+		</dependency>
         
 Build Code: 
 
