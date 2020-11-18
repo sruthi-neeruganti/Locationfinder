@@ -26,7 +26,7 @@ At various places in the example, we will be using Gson library for JSON operati
 	</dependency>
 Spark-Job-Server-Client:
 
-Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apache License v2. It aims to make the java applications use the spark more easily.This is taken as reference from https://github.com/bluebreezecf/SparkJobServerClient
+Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apache License v2. It aims to make the java applications use the spark more easily.This is taken as reference from https://github.com/bluebreezecf/SparkJobServerClient .
 
        <dependency>
              <groupId>com.bluebreezecf</groupId>
@@ -34,7 +34,8 @@ Spark-Job-Server-Client is a open-source program of com.bluebreezecf under Apach
              <version>1.0.0</version>
         </dependency>
 	
-Swagger Dependencies: In order to display Swagger/OpenApI specification to the end points created in the backend Swagger dependencies are added to the project referred from https://github.com/manusant/spark-swagger and https://swagger.io/tools/swagger-codegen/ to generate javascript SDK for frontend application to access API	
+Swagger Dependencies: In order to display Swagger/OpenApI specification to the end points created in the backend Swagger dependencies are added to the project referred from https://github.com/manusant/spark-swagger and https://swagger.io/tools/swagger-codegen/ to generate javascript SDK for frontend application to access API.	
+
 		<dependency>
 			<groupId>com.beerboy.ss</groupId>
 			<artifactId>spark-swagger</artifactId>
